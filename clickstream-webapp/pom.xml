@@ -43,9 +43,10 @@
 	</dependencies>
 	<build>
 		<plugins>
-			<plugin> 
-       			 <groupId>org.mortbay.jetty</groupId> 
+			<plugin>
+       			 <groupId>org.mortbay.jetty</groupId>
         		<artifactId>maven-jetty-plugin</artifactId>
+                <version>6.0.2</version>
      		</plugin>
 		</plugins>
 	</build>
@@ -105,5 +106,5 @@
                         <url>http://maven.opensymphony.com</url>
                 </repository>
         </repositories>
-</project>	
-	
+</project>
+
