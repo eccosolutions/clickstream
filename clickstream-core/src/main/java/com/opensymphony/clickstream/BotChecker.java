@@ -1,13 +1,13 @@
 package com.opensymphony.clickstream;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import com.opensymphony.clickstream.config.ClickstreamConfig;
 import com.opensymphony.clickstream.config.ConfigLoader;
 
 /**
  * Determines if a request is actually a bot or spider.
- * 
+ *
  * @author <a href="plightbo@hotmail.com">Patrick Lightbody</a>
  */
 public class BotChecker {

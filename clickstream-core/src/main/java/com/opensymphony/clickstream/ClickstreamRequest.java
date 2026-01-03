@@ -3,7 +3,7 @@ package com.opensymphony.clickstream;
 import java.io.Serializable;
 import java.util.Date;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * A small class that captures the most important info from the
