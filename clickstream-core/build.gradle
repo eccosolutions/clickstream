@@ -28,6 +28,6 @@ repositories {
 
 dependencies {
 	compile 'commons-logging:commons-logging:1.1.1'
-	compile 'javax.servlet:servlet-api:2.5'
+	compile 'jakarta.servlet:jakarta.servlet-api:6.1.0'
 }
 
